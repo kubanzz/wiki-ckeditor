@@ -50,6 +50,7 @@ import Plugin from '@ckeditor/ckeditor5-core/src/plugin.js';
 import { ButtonView } from '@ckeditor/ckeditor5-ui';
 import linkToPageIcon from './icons/link-to-page.svg';
 import imageIcon from '@ckeditor/ckeditor5-core/theme/icons/image.svg';
+import { GeneralHtmlSupport } from '@ckeditor/ckeditor5-html-support';
 
 // import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
 import { ClassicEditor as ClassicEditorBase } from '@ckeditor/ckeditor5-editor-classic';
@@ -139,6 +140,7 @@ Editor.builtinPlugins = [
 	MediaEmbed,
 	Paragraph,
 	PasteFromOffice,
+	GeneralHtmlSupport,
 	PictureEditing,
 	Strikethrough,
 	Subscript,
